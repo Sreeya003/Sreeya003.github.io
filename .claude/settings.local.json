@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(extract-text \"C:\\\\Users\\\\sreey\\\\sreeya\\\\RESUME\\\\star_sreeya-master.docx\")",
+      "PowerShell($wordApp = New-Object -ComObject Word.Application; $wordApp.Visible = $false; $doc = $wordApp.Documents.Open\\(\"C:\\\\Users\\\\sreey\\\\sreeya\\\\RESUME\\\\star_sreeya-master.docx\"\\); $text = $doc.Content.Text; $doc.Close\\(\\); $wordApp.Quit\\(\\); Write-Output $text)",
+      "PowerShell(node --version)",
+      "PowerShell(npm --version)",
+      "PowerShell(Get-ChildItem -Path \"C:\\\\Program Files\\\\nodejs\" -ErrorAction SilentlyContinue | Select-Object -First 3; Get-ChildItem -Path \"$env:APPDATA\\\\npm\" -ErrorAction SilentlyContinue | Select-Object -First 3; Get-ChildItem -Path \"$env:LOCALAPPDATA\\\\nvs\" -ErrorAction SilentlyContinue; Get-ChildItem -Path \"$env:USERPROFILE\\\\.nvm\" -ErrorAction SilentlyContinue; where.exe node 2>$null; where.exe npm 2>$null)",
+      "WebFetch(domain:github.com)",
+      "PowerShell($env:Path = [System.Environment]::GetEnvironmentVariable\\(\"Path\",\"Machine\"\\) + \";\" + [System.Environment]::GetEnvironmentVariable\\(\"Path\",\"User\"\\); node --version; npm --version)",
+      "Read(//c/Users/sreey/AppData/Local/Temp/claude/C--Users-sreey-OneDrive-Desktop-portfolio/791b9c07-cc12-4fef-a40c-70ce862db160/tasks/**)",
+      "mcp__Claude_Preview__preview_start"
+    ]
+  }
+}
