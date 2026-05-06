@@ -9,7 +9,7 @@ export default function SectionHeader({ number, label, title, kicker }) {
       transition={{ duration: 0.6 }}
       className="mb-12 md:mb-16"
     >
-      <p className="font-mono text-[11px] tracking-[0.3em] text-cobalt-700 uppercase">
+      <p className="font-mono text-[13px] font-medium tracking-[0.25em] text-cobalt-700 uppercase">
         {number} — {label}
       </p>
       <div className="mt-4 flex items-end justify-between gap-6">

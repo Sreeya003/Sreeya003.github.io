@@ -13,7 +13,7 @@ export default function Skills() {
           className="grid md:grid-cols-12 gap-10"
         >
           <div className="md:col-span-2 md:col-start-2">
-            <p className="font-mono text-[11px] tracking-[0.3em] text-cobalt-700 uppercase">Toolkit</p>
+            <p className="font-mono text-[13px] font-medium tracking-[0.25em] text-cobalt-700 uppercase">Toolkit</p>
           </div>
           <div className="md:col-span-9 grid sm:grid-cols-2 gap-x-10 gap-y-8">
             {skills.map((s) => (

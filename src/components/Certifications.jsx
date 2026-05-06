@@ -13,7 +13,7 @@ export default function Certifications() {
           className="grid md:grid-cols-12 gap-10"
         >
           <div className="md:col-span-4">
-            <p className="font-mono text-[11px] tracking-[0.3em] text-cobalt-700 uppercase">Certifications</p>
+            <p className="font-mono text-[13px] font-medium tracking-[0.25em] text-cobalt-700 uppercase">Certifications</p>
             <h3 className="mt-3 font-serif font-light text-3xl md:text-5xl leading-[1.05] text-balance">
               Always <span className="italic text-cobalt-700">learning</span>.
             </h3>

@@ -13,7 +13,7 @@ export default function Hero() {
           transition={{ duration: 0.8, ease: 'easeOut' }}
           className="md:col-span-7 order-2 md:order-1"
         >
-          <p className="font-mono text-[11px] tracking-[0.3em] text-cobalt-700 uppercase mb-6">
+          <p className="font-mono text-[13px] font-medium tracking-[0.25em] text-cobalt-700 uppercase mb-6">
             00 — Introduction
           </p>
           <h1 className="font-serif font-light text-5xl md:text-7xl lg:text-[5.5rem] leading-[0.95] text-balance">

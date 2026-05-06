@@ -13,7 +13,7 @@ export default function Contact() {
           viewport={{ once: true, margin: '-80px' }}
           transition={{ duration: 0.7 }}
         >
-          <p className="font-mono text-[11px] tracking-[0.3em] text-cobalt-700 uppercase">06 — Contact</p>
+          <p className="font-mono text-[13px] font-medium tracking-[0.25em] text-cobalt-700 uppercase">06 — Contact</p>
           <h2 className="mt-6 font-serif font-light text-5xl md:text-7xl lg:text-8xl leading-[0.95] text-balance">
             Let's <span className="italic text-cobalt-700">connect</span>.
           </h2>
@@ -45,7 +45,7 @@ function SocialBtn({ href, label, children }) {
       target="_blank"
       rel="noreferrer"
       aria-label={label}
-      className="w-12 h-12 grid place-items-center border border-rule rounded-full text-ink/60 hover:border-cobalt-700 hover:text-cobalt-700 hover:-translate-y-0.5 transition-all"
+      className="w-16 h-16 grid place-items-center border border-rule rounded-full text-ink/70 text-2xl hover:border-cobalt-700 hover:text-cobalt-700 hover:-translate-y-0.5 transition-all"
     >
       {children}
     </a>
