@@ -37,6 +37,19 @@ export const education = [
       'Advanced Regression Analysis',
     ],
   },
+  {
+    school: 'MVSR Engineering College',
+    location: 'Hyderabad, India',
+    degree: 'B.E. Information Technology',
+    period: 'Jul 2020 – Jun 2024',
+    detail: 'CGPA 3.0',
+    courses: [
+      'Data Structures',
+      'Database Management Systems',
+      'Machine Learning',
+      'Operating Systems',
+    ],
+  },
 ];
 
 export const experience = [
