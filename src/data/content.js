@@ -54,10 +54,22 @@ export const education = [
 
 export const experience = [
   {
+    role: 'Graduate Research Assistant',
+    company: 'The University of Texas at Arlington',
+    location: 'Arlington, TX',
+    period: 'May 2026 — Present',
+    bullets: [
+      'Engineered robust Python data-analysis workflows under Prof. Anton Artemyev to investigate fast plasma flow thermalization in Earth’s magnetosphere and the near-Earth solar wind.',
+      'Processed and analyzed high-resolution, multi-dimensional plasma measurements from NASA THEMIS and MMS (Magnetospheric Multiscale) missions to isolate complex energy-conversion patterns.',
+      'Quantified statistical correlations between kinetic and thermal energy states using advanced data modeling techniques to deepen institutional understanding of energy dissipation in collisionless plasmas.',
+      'Optimized data pipelines for massive space-physics datasets, leveraging core scientific computing libraries to accelerate diagnostic timelines and research outputs.',
+    ],
+  },
+  {
     role: 'Teaching Assistant',
     company: 'The University of Texas at Arlington',
     location: 'Arlington, TX',
-    period: 'Feb 2026 — Present',
+    period: 'Feb 2026 — May 2026',
     bullets: [
       'Support instructional delivery for DATA 3441: Stats for Data Science 1 — descriptive statistics, probability theory, and inferential statistics.',
       'Facilitate weekly laboratory sessions, guiding hands-on application of statistical methods and visualization in SAS.',
