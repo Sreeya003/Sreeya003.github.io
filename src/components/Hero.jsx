@@ -22,7 +22,7 @@ export default function Hero() {
             I turn data into <span className="italic text-cobalt-700">decisions</span>.
           </h1>
           <p className="mt-8 max-w-xl text-base md:text-lg text-ink/70 text-pretty leading-relaxed">
-            Graduate researcher and data analyst at UT Arlington — applied statistics M.S. student working on NASA THEMIS / MMS plasma data. I build classification models, research pipelines, and dashboards that turn raw measurements into decision-ready insights.
+            Applied statistics M.S. student and data analyst at UT Arlington — with hands-on research experience on NASA THEMIS / MMS plasma data. I build classification models, research pipelines, and dashboards that turn raw measurements into decision-ready insights.
           </p>
           <div className="mt-10 flex flex-wrap items-center gap-4">
             <a

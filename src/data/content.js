@@ -54,10 +54,22 @@ export const education = [
 
 export const experience = [
   {
+    role: 'Teaching Assistant',
+    company: 'The University of Texas at Arlington',
+    location: 'Arlington, TX',
+    period: 'Aug 2026 — Present',
+    bullets: [
+      'Returned to support instructional delivery for DATA 3441: Stats for Data Science 1 — descriptive statistics, probability theory, and inferential statistics.',
+      'Facilitate weekly laboratory sessions, guiding hands-on application of statistical methods and visualization in SAS.',
+      'Grade homework, quizzes, and lab assignments for a 4-credit-hour curriculum.',
+      'Provide academic support on least-squares regression, sampling distributions, and hypothesis testing.',
+    ],
+  },
+  {
     role: 'Graduate Research Assistant',
     company: 'The University of Texas at Arlington',
     location: 'Arlington, TX',
-    period: 'May 2026 — Present',
+    period: 'May 2026 — Aug 2026',
     bullets: [
       'Engineered robust Python data-analysis workflows under Prof. Anton Artemyev to investigate fast plasma flow thermalization in Earth’s magnetosphere and the near-Earth solar wind.',
       'Processed and analyzed high-resolution, multi-dimensional plasma measurements from NASA THEMIS and MMS (Magnetospheric Multiscale) missions to isolate complex energy-conversion patterns.',
@@ -71,10 +83,10 @@ export const experience = [
     location: 'Arlington, TX',
     period: 'Feb 2026 — May 2026',
     bullets: [
-      'Support instructional delivery for DATA 3441: Stats for Data Science 1 — descriptive statistics, probability theory, and inferential statistics.',
-      'Facilitate weekly laboratory sessions, guiding hands-on application of statistical methods and visualization in SAS.',
-      'Grade homework, quizzes, and lab assignments for a 4-credit-hour curriculum.',
-      'Provide academic support on least-squares regression, sampling distributions, and hypothesis testing.',
+      'Supported instructional delivery for DATA 3441: Stats for Data Science 1 — descriptive statistics, probability theory, and inferential statistics.',
+      'Facilitated weekly laboratory sessions, guiding hands-on application of statistical methods and visualization in SAS.',
+      'Graded homework, quizzes, and lab assignments for a 4-credit-hour curriculum.',
+      'Provided academic support on least-squares regression, sampling distributions, and hypothesis testing.',
     ],
   },
   {
